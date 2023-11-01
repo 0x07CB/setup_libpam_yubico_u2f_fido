@@ -54,4 +54,4 @@ bash setup.sh
 
 By following these instructions, you'll have the necessary prerequisites installed and be ready to use the "*PAM AUTH U2F FIDO*" project on your system.
 
-~*Enjoy **secure authentication with** your **YubiKey U2F***~ on your preferred platform!
+_Enjoy **secure authentication with** your **YubiKey U2F**_ on your preferred platform!
