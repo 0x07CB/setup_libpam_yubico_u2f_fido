@@ -14,7 +14,7 @@ Use this section to inform users about which versions of your project receive se
 
 If you discover a security vulnerability in this project, we appreciate your responsible disclosure. To report a vulnerability, please follow these steps:
 
-1. Contact us via email at [security@example.com](mailto:security@example.com). Please do not disclose the details of the vulnerability in the initial report.
+1. Create an issues Tickets at [Create an Issues for: setup_libpam_yubico_u2f_fido](https://github.com/0x07CB/setup_libpam_yubico_u2f_fido/issues/new/choose). Please do not disclose the details of the vulnerability in the initial report.
 
 2. Our security team will review your report and respond to you as soon as possible, typically within 5 business days. We may request additional information or clarification.
 
