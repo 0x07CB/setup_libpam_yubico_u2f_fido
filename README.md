@@ -35,12 +35,12 @@ This repository also includes an [setup.sh](setup.sh) script for installation.
 
 To get started with ***YubiKey U2F*** support and ***PAM configuration***, follow these steps:
 
-1. ~Clone this repository to your local machine~:
+1. _Clone this repository to your local machine:_
    ```bash
     git clone https://github.com/0x07cb/setup_libpam_yubico_u2f_fido.git && cd setup_libpam_yubico_u2f_fido
    ```
    
-2. Execute the [setup.sh](setup.sh) script to install the necessary dependencies and configure PAM for YubiKey U2F support:
+2. _Execute the [setup.sh](setup.sh) script to install the necessary dependencies and configure PAM for YubiKey U2F support:_
    ```bash
    ./setup.sh
 
