@@ -20,6 +20,9 @@ Before using this setup, ensure that you meet the following prerequisites:
 - Administrative privileges on your system
 - A YubiKey for U2F support
 
+The `PREREQUISITES.md` file that explains how to install prerequisites on various Linux distributions (Arch Linux, Debian, Fedora) and on macOS using Homebrew. 
+This repository also includes an `setup.sh` script for installation.
+
 ## Installation
 
 To get started with YubiKey U2F support and PAM configuration, follow these steps:
