@@ -69,9 +69,9 @@ If you would like to contribute code, documentation, or improvements to the proj
 
 7. Once your pull request is approved and passes any required tests, it will be merged into the project.
 
-Please note that contributions should be made under the project's [MIT License](LICENSE), and by contributing, you agree to license your contributions under the same terms.
+This project is licensed under the [BSD 3-Clause License](LICENSE), and by contributing, you agree to license your contributions under the same terms.
 
 Thank you for considering contributing to the "PAM AUTH U2F FIDO" project, and we appreciate your support in making this project better!
 
 ---
-Enjoy secure authentication with your YubiKey U2F on Debian-Based Linux systems. If you encounter any issues or have questions, feel free to reach out for assistance.
+Enjoy secure authentication with your YubiKey U2F on your systems. If you encounter any issues or have questions, feel free to reach out for assistance.
