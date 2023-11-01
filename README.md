@@ -7,7 +7,7 @@ This repository provides a set of presets and scripts for configuring PAM (Plugg
 
 - - -
 
-### ~⚠️**Warning**⚠️~
+### _⚠️**Warning**⚠️_
 _Please note that **the availability and compatibility of these PAM modules may vary depending on your Linux distribution and version.**_
 _It **is recommended to consult the documentation** or **official websites of the respective modules** for more details on their **usage** and **configuration**._
 
