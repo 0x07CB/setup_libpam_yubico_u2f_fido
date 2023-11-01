@@ -3,7 +3,15 @@
 
 **Author**: Rick Sanchez
 
-This repository provides a set of presets and scripts for configuring PAM (Pluggable Authentication Module) to support YubiKey U2F (FIDO U2F) on Debian-Based Linux systems. The primary script, [setup.sh](setup.sh) simplifies the installation and configuration process.
+This repository provides a set of presets and scripts for configuring PAM (Pluggable Authentication Module) to support YubiKey U2F (FIDO U2F) on Linux and MacOS systems. The primary script, [setup.sh](setup.sh) simplifies the installation and configuration process.
+
+- - -
+
+### ~⚠️**Warning**⚠️~
+_Please note that **the availability and compatibility of these PAM modules may vary depending on your Linux distribution and version.**_
+_It **is recommended to consult the documentation** or **official websites of the respective modules** for more details on their **usage** and **configuration**._
+
+- - -
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
