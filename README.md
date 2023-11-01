@@ -3,7 +3,7 @@
 
 **Author**: Rick Sanchez
 
-This repository provides a set of presets and scripts for configuring PAM (Pluggable Authentication Module) to support YubiKey U2F (FIDO U2F) on Debian-Based Linux systems. The primary script, `setup-libpam-u2f.sh`, simplifies the installation and configuration process.
+This repository provides a set of presets and scripts for configuring PAM (Pluggable Authentication Module) to support YubiKey U2F (FIDO U2F) on Debian-Based Linux systems. The primary script, [setup.sh](setup.sh) simplifies the installation and configuration process.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -16,12 +16,12 @@ This repository provides a set of presets and scripts for configuring PAM (Plugg
 
 Before using this setup, ensure that you meet the following prerequisites:
 
-- A Debian-Based Linux system
-- Administrative privileges on your system
-- A YubiKey for U2F support
+- A **Linux** or **MacOS** system
+- **Administrative privileges** on your system
+- A **YubiKey** for **U2F** support
 
-The `PREREQUISITES.md` file that explains how to install prerequisites on various Linux distributions (Arch Linux, Debian, Fedora) and on macOS using Homebrew. 
-This repository also includes an `setup.sh` script for installation.
+The [PREREQUISITES.md](PREREQUISITES.md) file that explains how to install prerequisites on various Linux distributions (Arch Linux, Debian, Fedora) and on macOS using Homebrew. 
+This repository also includes an [setup.sh](setup.sh) script for installation.
 
 ## Installation
 
@@ -29,25 +29,23 @@ To get started with YubiKey U2F support and PAM configuration, follow these step
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/0x07cb/setup_libpam_yubico_u2f_fido.git
-   cd setup_libpam_yubico_u2f_fido
+    git clone https://github.com/0x07cb/setup_libpam_yubico_u2f_fido.git && cd setup_libpam_yubico_u2f_fido
    ```
-
-2. Execute the `setup-libpam-u2f.sh` script to install the necessary dependencies and configure PAM for YubiKey U2F support:
+   
+2. Execute the [setup.sh](setup.sh) script to install the necessary dependencies and configure PAM for YubiKey U2F support:
    ```bash
-   ./setup-libpam-u2f.sh
-   ```
+   ./setup.sh
 
 ## Usage
 
-Once you've completed the installation steps, your system will be set up to work with YubiKey U2F. The script `setup-libpam-u2f.sh` performs the following actions:
+Once you've completed the installation steps, your system will be set up to work with YubiKey U2F. The script [setup.sh](setup.sh) performs the following actions:
 
 - Installs the `libpam-u2f` package.
 - Creates a directory for YubiKey configuration files at `~/.config/Yubico/`.
-- Generates U2F key configuration with `pamu2fcfg` for the user "sanchez" and stores it in `~/.config/Yubico/u2f_keys`.
+- Generates U2F key configuration with `pamu2fcfg` for the user `$USER` and stores it in `~/.config/Yubico/u2f_keys`.
 - Copies PAM configuration files for `common-auth-u2f`, `login`, and `sudo` to their respective locations in `/etc/pam.d/`.
 
-You can now use your YubiKey U2F for authentication and secure access to your Debian-Based Linux system.
+You can now use your YubiKey U2F for authentication and secure access to your Linux system.
 
 ## Contributing
 
@@ -61,7 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Enjoy secure authentication with your YubiKey U2F on Debian-Based Linux systems. If you encounter any issues or have questions, feel free to reach out for assistance.
-
+_Enjoy **secure authentication with** your **YubiKey U2F**_ on your preferred platform!
+If you encounter any issues or have questions, feel free to reach out for assistance.
 
 
