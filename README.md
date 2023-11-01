@@ -14,6 +14,7 @@ _It **is recommended to consult the documentation** or **official websites of th
 - - -
 
 ## Table of Contents
+- [2FA List](2FA_LIST.md)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
