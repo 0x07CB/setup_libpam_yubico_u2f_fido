@@ -3,12 +3,12 @@
 
 **Author**: Rick Sanchez
 
-This repository provides a set of presets and scripts for configuring PAM (Pluggable Authentication Module) to support YubiKey U2F (FIDO U2F) on Linux and MacOS systems. The primary script, [setup.sh](setup.sh) simplifies the installation and configuration process.
+This repository provides a set of presets and scripts for configuring PAM (Pluggable Authentication Module) to support YubiKey U2F (FIDO U2F) on Linux 🐧 and MacOS 🖥️ systems. The primary script, [setup.sh](setup.sh) simplifies the installation and configuration process.
 
 - - -
 
 ### _⚠️**Warning**⚠️_
-_Please note that **the availability and compatibility of these PAM modules may vary depending on your Linux distribution and version.**_
+_Please note that **the availability and compatibility of these PAM modules may vary depending on your Linux 🐧 distribution and version.**_
 _It **is recommended to consult the documentation** or **official websites of the respective modules** for more details on their **usage** and **configuration**._
 
 - - -
@@ -24,18 +24,18 @@ _It **is recommended to consult the documentation** or **official websites of th
 
 Before using this setup, ensure that you meet the following prerequisites:
 
-- A **Linux** or **MacOS** system
-- **Administrative privileges** on your system
+- A **Linux** 🐧 or **MacOS** 🖥️ system
+- **Administrative privileges** 🔑 on your system
 - A **YubiKey** for **U2F** support
 
-The [PREREQUISITES.md](PREREQUISITES.md) file that explains how to install prerequisites on various Linux distributions (Arch Linux, Debian, Fedora) and on macOS using Homebrew. 
+The [PREREQUISITES.md](PREREQUISITES.md) file that explains how to install prerequisites on various Linux 🐧 distributions (Arch Linux, Debian, Fedora) and on macOS 🖥️ using Homebrew 🍺. 
 This repository also includes an [setup.sh](setup.sh) script for installation.
 
 ## Installation
 
-To get started with YubiKey U2F support and PAM configuration, follow these steps:
+To get started with ***YubiKey U2F*** support and ***PAM configuration***, follow these steps:
 
-1. Clone this repository to your local machine:
+1. ~Clone this repository to your local machine~:
    ```bash
     git clone https://github.com/0x07cb/setup_libpam_yubico_u2f_fido.git && cd setup_libpam_yubico_u2f_fido
    ```
