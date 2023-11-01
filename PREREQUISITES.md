@@ -34,7 +34,6 @@ sudo dnf install -y pamu2fcfg libpam-u2f
 ## macOS (using Homebrew)
 
 *If you're using **macOS**, you can use **Homebrew** to ~install the required dependencies~. If you don't have **Homebrew** installed, you can install it by following the instructions at [Homebrew's website](https://brew.sh/).*
-[Homebrew's website](https://brew.sh/)<!-- {"preview":"true"} -->
 
 *Once **Homebrew** is installed, run the following commands:*
 
